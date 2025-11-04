@@ -1,0 +1,436 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px black solid;
+
+}
+
+.headerOneDivision {
+    background-color: black;
+    color: white;
+    top : 0px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+
+.headerTwoDivision {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.headerTwoDivision a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.headerTwoDivision a:hover {
+    font-weight: bolder;
+}
+
+.headerTwoDivision button {
+    margin-right: 5px;
+}
+
+.headerTwoDivisionButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cartButtonImage {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+
+.cartButton {
+    background: none;
+    border: none;
+}
+
+.accountButtonImage {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid black;
+}
+
+.myAccountButton {
+    background: none;
+    border: none;
+}
+
+.contactusButton {
+    height: 30px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: grey;
+    border: none;
+}
+
+
+.contentOneDivision {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid rgb(185, 185, 185);
+}
+
+.contentOneDivision img {
+    height: 500px;
+    width: 400px;
+}
+
+
+.contentTwoDivision {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    padding-bottom: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.contentTwoDescriptionOneDiv {
+    padding-top: 50px;
+}
+
+.contentTwoImgOne {
+    position: absolute;
+    top: -50px;
+    left: 150px;
+    height: 200px;
+    width: 200px;
+}
+
+.contentTwoImgTwo {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 200px;
+    left: 50px;
+    bottom: -100px;
+}
+
+.contentTwoImgThree {
+    height: 200px;
+    width: 550px;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+
+
+.ourServicesDivision {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.ourServicesDivision h2 {
+    border-top: 1px solid black;
+    padding-top: 50px;
+}
+
+.servicesDescDivisionOne, .servicesDescDivisionTwo {
+    display: flex;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.servicesDescDivisionOne h1, .servicesDescDivisionOne p {
+    color: grey;
+}
+
+.servicesDescDivision {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.contentThreeDivision {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding: 100px;
+    background-image: url(../assets/images/contentThree.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.contentThreeDivision button {
+    display: flex;
+    padding: 15px;
+    height: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.statisticDivision {
+    display: flex;
+    background-color: rgb(234, 234, 234);
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+}
+
+.statsRightDivision {
+    display: flex;
+    padding: 20px;
+    gap: 100px;
+    justify-content: space-between;
+}
+
+.statsOne, .statsTwo, .statsThree, .statsFour, .statsFive, .statsSix {
+    border-bottom: 1px solid grey;
+}
+
+
+.forumDivision {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    font-size: larger;
+}
+
+.forumDivision h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.forumDivision button {
+    padding: 15px;
+}
+
+.forumInputDivision {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 25px;
+}
+
+.forumInputDivision label {
+    width: 200px;
+}
+
+.forumInputDivision input {
+    width: 400px;
+}
+
+.inputGroup {
+    display: flex;
+    gap: 200px;
+    justify-content: space-evenly;
+}
+
+
+.pricingDivision {
+    padding: 100px;
+}
+
+.pricingDivisionsDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricingDivisionsDiv button {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+.pricingDivisionsDiv button:hover {
+    background-color: rgb(211, 211, 211);
+}
+
+.pricingBeginner, .pricingIntermediate, .pricingAdvance {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.pricingBeginner p, .pricingIntermediate p, .pricingAdvance p {
+}
+
+
+.partnersDivision {
+    padding: 100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.collabImagesDivision {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.collabImagesDivision img {
+    height: 100px;
+    width: 100px;
+}
+
+
+.callBookingDivision {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    background-color: rgb(207, 207, 207);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.callBookingDivision button {
+    padding: 15px;
+}
+
+.callBookingImgDivision img {
+    height: 500px;
+    width: 500px;
+}
+
+
+.storyDivision {
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    justify-content: space-between;
+}
+
+.storyDivision img {
+    height: 200px;
+    width: 250px;
+}
+
+
+.teamPartDivision {
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.teamPartDivision button {
+    padding: 25px;
+    border-radius: 50px;
+    border: none;
+}
+
+
+.singnInDivision {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    background-color: black;
+    height: 20px;
+}
+
+
+.footerdivision {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px;
+    padding-bottom: 200px;
+
+    background-color: black;
+    color: white;
+}
+
+.footerRightCompanyQuickLinks {
+    display: flex;
+    gap: 50px;
+}
+
+.footerRightCompanyQuickLinks a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+.backToTopDivision {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+
+.footerWhatsAppMessage {
+    position: fixed;
+    bottom: 150px;
+    right: 100px;
+}
+.footerMailMesssage {
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+}
+
+.footerWhatsAppLogo {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+.footerMailLogo {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+
+.privacyPolicyDivision {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: rgb(140, 140, 140);
+    padding-top: 150px;
+}
