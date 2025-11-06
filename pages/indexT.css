@@ -1,7 +1,25 @@
 /* Verticle View port */
 @media screen and (max-width: 800px) and (min-width: 400px) {
-    body {
-        background-color: red;
+
+    .headerTwoDivision {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .cartButtonImage {
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+        border: 1px solid black;
+    }
+    .accountButtonImage {
+        width: 40px;
+        height: 40px;
+        border-radius: 25px;
+        border: 1px solid black;
     }
 
     .headerTwoDivision {
@@ -35,8 +53,15 @@
         margin-bottom: 10px;
     }
 
+    .contentTwoImgThree {
+        width: 500px;
+    }
+
     .ourServicesDivision {
         padding: 50px;
+    }
+    .ourServicesDivision div {
+        gap: 50px;
     }
 
     .forumDivision {
@@ -44,6 +69,9 @@
     }
     .inputGroup {
         gap: 100px;
+    }
+    .forumInputDivision input {
+        width: 200px;
     }
 
     .statisticDivision {
@@ -64,7 +92,7 @@
 
     .footerdivision {
         padding: 50px;
-        gap: 100px;
+        gap: 50px;
     }
 
     .partnersDivision {
@@ -79,11 +107,36 @@
     .callBookingDivision {
         padding-left: 50px;
         padding-right: 50px;
-        gap: 100px;
+        gap: 80px;
     }
     .callBookingDivision img {
-        height: 300px;
-        width: 300px;
+        height: 250px;
+        width: 200px;
+    }
+
+    .storyDivision img {
+        height: 100px;
+        width: 130px;
+    }
+
+    .footerWhatsAppMessage {
+        bottom: 100px;
+        right: 50px;
+    }
+    .footerMailMesssage {
+        bottom: 40px;
+        right: 50px;
+    }
+    
+    .footerWhatsAppLogo {
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+    }
+    .footerMailLogo {
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
     }
 
 }

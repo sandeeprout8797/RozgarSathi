@@ -144,11 +144,11 @@ body {
 
 .servicesDescDivisionOne, .servicesDescDivisionTwo {
     display: flex;
-    gap: 100px;
+    gap: 80px;
     margin-bottom: 50px;
 }
 
-.servicesDescDivisionOne h1, .servicesDescDivisionOne p {
+.servicesDescDivisionOne h1, .servicesDescDivisionOne p, .servicesDescDivisionTwo h1, .servicesDescDivisionTwo p {
     color: grey;
 }
 
