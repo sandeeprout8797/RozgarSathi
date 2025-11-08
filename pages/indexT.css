@@ -28,6 +28,7 @@
 
     .contentOneDivision {
         display: flex;
+        padding: 50px;
         flex-direction: column;
         gap: 50px;
     }
@@ -37,8 +38,7 @@
     }
 
     .contentTwoDivision {
-        padding-left: 50px;
-        padding-right: 50px;
+        padding: 50px;
         text-align: left;
         justify-content: left;
         display: flex;
@@ -150,6 +150,7 @@
 
     .contentOneDivision {
         gap: 50px;
+        padding: 50px;
     }
     .contentOneDivision img {
         height: 400px;
@@ -159,6 +160,7 @@
 
     .contentTwoDivision {
         gap: 100px;
+        padding: 50px;
         align-items: center;
         justify-content: center;
     }
