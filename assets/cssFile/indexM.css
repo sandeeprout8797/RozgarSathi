@@ -1,15 +1,26 @@
 @media screen and (max-width: 400px) {
 
     .headerTwoDivision {
-        padding: 20px;
+        padding: 0px;
         display: flex;
+        gap: 5px;
     }
 
-    .headerTwoDivision div {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+    .companylogoImgName {
+        gap: 5px;
     }
+    .companylogoImgName img {
+        width: 30px;
+        height: 30px;
+    }
+    .companylogoImgName h3 {
+        font-size: 10px;
+    }
+
+    .headerTwoDivision {
+        margin-bottom: 20px;
+    }
+
     .cartButtonImage {
         height: 30px;
         width: 30px;
@@ -32,6 +43,7 @@
         display: flex;
         flex-direction: column;
         gap: 50px;
+        padding: 20px;
     }
     .contentOneDivision img {
         height: 250px;
@@ -41,6 +53,7 @@
 
     .contentTwoDivision {
         flex-direction: column-reverse;
+        padding: 20px;
     }
     .contentTwoImageDiv div {
         display: flex;
@@ -146,13 +159,13 @@
     }
     
     .footerWhatsAppLogo {
-        height: 30px;
-        width: 30px;
-        border-radius: 15px;
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
     }
     .footerMailLogo {
-        height: 30px;
-        width: 30px;
-        border-radius: 15px;
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
     }
 }
